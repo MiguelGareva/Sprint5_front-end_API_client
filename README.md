@@ -193,11 +193,7 @@ Este proyecto ha transformado mi enfoque del desarrollo de software, demostránd
 
 ## 6. Enlace al Repositorio
 
-El código completo del proyecto está disponible en [GitHub](enlace-a-tu-repositorio).
-
-## 7. Presentación
-
-La presentación completa de este proyecto se puede encontrar [aquí](enlace-a-tu-presentación).
+El código completo del proyecto está disponible en [GitHub]https://github.com/MiguelGareva/Sprint5_front-end_API_client.
 
 ---
 
@@ -249,7 +245,3 @@ php artisan serve
 - Listado de entrenadores
 - Interfaz para ver batallas
 - Componentes reutilizables con estilos temáticos de Pokémon
-
-## Agradecimientos
-- A Claude 3.7 Sonnet por su asistencia en el desarrollo del frontend
-- A todos los instructores y compañeros del bootcamp por su apoyo y feedback
