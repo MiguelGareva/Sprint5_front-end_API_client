@@ -7,7 +7,7 @@ export default {
     theme: {
       extend: {
         colors: {
-        // Colores de Pokémon existentes
+          // Colores de Pokémon existentes
           'pokemon-normal': '#A8A77A',
           'pokemon-fire': '#EE8130',
           'pokemon-water': '#6390F0',
@@ -26,25 +26,23 @@ export default {
           'pokemon-dark': '#705746',
           'pokemon-steel': '#B7B7CE',
           'pokemon-fairy': '#D685AD',
-
-           // Colores de la aplicación
-        'app': {
-            'primary': '#4A90E2',    // Azul principal
-            'secondary': '#50E3C2',  // Verde-azulado secundario
-            'accent': '#F5A623',     // Naranja acento
-            'background': '#F9FAFB', // Fondo claro
-            'card': '#FFFFFF',       // Fondo de tarjetas
-            'text': '#333333',       // Texto principal
-            'text-light': '#666666', // Texto secundario
-            'border': '#E5E7EB',     // Bordes
-            'error': '#E53E3E',      // Rojo para errores
-            'success': '#38A169',    // Verde para éxito
-          }
+          
+          // Colores de la aplicación
+          'app-primary': '#4A90E2',    // Azul principal
+          'app-secondary': '#50E3C2',  // Verde-azulado secundario
+          'app-accent': '#F5A623',     // Naranja acento
+          'app-background': '#F9FAFB', // Fondo claro
+          'app-card': '#FFFFFF',       // Fondo de tarjetas
+          'app-text': '#333333',       // Texto principal
+          'app-text-light': '#666666', // Texto secundario
+          'app-border': '#E5E7EB',     // Bordes
+          'app-error': '#E53E3E',      // Rojo para errores
+          'app-success': '#38A169',    // Verde para éxito
         },
         fontFamily: {
-          'sans': ['Inter', 'ui-sans-serif', 'system-ui'],
-          'display': ['Poppins', 'ui-sans-serif', 'system-ui'],
-          'mono': ['Roboto Mono', 'ui-monospace', 'monospace'],
+          sans: ['Inter', 'ui-sans-serif', 'system-ui', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', 'sans-serif'],
+          display: ['Poppins', 'ui-sans-serif', 'system-ui'],
+          mono: ['Roboto Mono', 'ui-monospace', 'monospace'],
         },
         boxShadow: {
           'card': '0 2px 4px rgba(0, 0, 0, 0.05), 0 4px 8px rgba(0, 0, 0, 0.05)',

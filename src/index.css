@@ -2,7 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Estilos personalizados adicionales que queremos conservar */
+/* Importar global.css después de las directivas de Tailwind */
+@import './styles/global.css';
+
+/* El resto de tu index.css se mantiene igual */
 @layer components {
   .pokemon-card {
     @apply bg-white rounded-lg shadow-md p-4 hover:shadow-lg transition-shadow duration-300;
@@ -20,5 +23,3 @@
     @apply bg-pokemon-fire text-white hover:bg-red-700;
   }
 }
-
-/* Puedes agregar más estilos personalizados aquí si lo necesitas */
