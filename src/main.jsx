@@ -3,8 +3,8 @@ import ReactDOM from 'react-dom/client';
 import { RouterProvider } from 'react-router-dom';
 import router from './router';
 
-// Importar estilos globales
-import './styles/global.css';
+// Importar estilos (cambiado para incluir index.css con las directivas de Tailwind)
+import './index.css';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
