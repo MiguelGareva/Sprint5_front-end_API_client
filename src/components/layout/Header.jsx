@@ -12,6 +12,7 @@ function Header() {
             <li><Link to="/" className="hover:text-yellow-200 transition-colors">Home</Link></li>
             <li><Link to="/pokemon" className="hover:text-yellow-200 transition-colors">Pokémon</Link></li>
             <li><Link to="/trainers" className="hover:text-yellow-200 transition-colors">Entrenadores</Link></li>
+            <li><Link to="/battles" className="hover:text-yellow-200 transition-colors">Batallas</Link></li>
           </ul>
         </nav>
       </div>
